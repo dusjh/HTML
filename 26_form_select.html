@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> form select 값 선택</title>
+</head>
+<body>
+   <h2>form select 값 선택</h2> <!--펼쳐서 선택-->
+   <form>
+       좋아하는 자동차는? (하나만 선택) <br>
+       <select name="car">
+           <option value="Benz">벤츠</option>
+           <option value="BMW">BMW</option>
+           <option vlaue="Hyundai">현대</option>
+           <option value="Maserati">마세라티</option>
+       </select>
+       <hr>
+       
+       좋아하는 자동차는? (여러개 선택가능)<br>
+       <select name="cars" multiple>   <!--multiple: 다중 선택 가능-->
+        <option value="Benz">벤츠</option>
+        <option value="BMW">BMW</option>
+        <option vlaue="Hyundai">현대</option>
+        <option value="Maserati">마세라티</option>
+    </select>
+
+       <input type="submit" value="전송">
+   </form>
+</body>
+</html>
